@@ -1,0 +1,29 @@
+{
+  "name": "mevn-crud",
+  "version": "1.0.0",
+  "description": "Simple CRUD server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Avrovulcan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "getenv": "^1.0.0",
+    "lodash": "^4.17.21",
+    "luxon": "^2.0.2",
+    "migrate-mongo": "^8.2.3",
+    "mongoose": "^5.13.7",
+    "swagger-ui-express": "^4.1.6",
+    "winston": "^3.3.3"
+  }
+}
